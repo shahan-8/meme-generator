@@ -1,16 +1,70 @@
-# React + Vite
+# Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple meme generator built with React and Vite. The app is organized into reusable interface components, including a header and the main meme creation area.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React component-based interface
+- Separate header and main content components
+- Fast local development with Vite
+- Modern React 19 setup
 
-## React Compiler
+> The README documents the current project structure. Add screenshots and a detailed feature list as the app evolves.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React 19
+- JavaScript (JSX)
+- Vite
+- Oxlint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/shahan-8/meme-generator.git
+cd meme-generator
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+## Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Available Scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the app for production |
+| `npm run lint` | Run Oxlint |
+| `npm run preview` | Preview the production build |
+
+## Project Structure
+
+```text
+meme-generator/
+├── src/
+│   ├── components/   # Reusable interface components
+│   ├── App.jsx       # Main application composition
+│   └── main.jsx      # React entry point
+├── public/
+├── index.html
+└── package.json
+```
+
+## Author
+
+Built by [Shahan](https://github.com/shahan-8).
