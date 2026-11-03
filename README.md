@@ -1,15 +1,24 @@
 # Meme Generator
 
-A simple meme generator built with React and Vite. The app is organized into reusable interface components, including a header and the main meme creation area.
+A simple meme generator built with React and Vite. Create memes by adding custom top and bottom text to meme images.
+
+## Preview
+
+### Example 1
+
+![Meme Generator preview - One does not simply walk into Mordor](screenshots/meme-generator-1.jpg)
+
+### Example 2
+
+![Meme Generator preview - custom meme text](screenshots/meme-generator-2.jpg)
 
 ## Features
 
 - React component-based interface
+- Add custom top and bottom text to meme images
+- Generate a new meme image
 - Separate header and main content components
 - Fast local development with Vite
-- Modern React 19 setup
-
-> The README documents the current project structure. Add screenshots and a detailed feature list as the app evolves.
 
 ## Tech Stack
 
@@ -56,10 +65,13 @@ npm run preview
 
 ```text
 meme-generator/
+├── screenshots/
+│   ├── meme-generator-1.jpg
+│   └── meme-generator-2.jpg
 ├── src/
-│   ├── components/   # Reusable interface components
-│   ├── App.jsx       # Main application composition
-│   └── main.jsx      # React entry point
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
 ├── public/
 ├── index.html
 └── package.json
