@@ -2,16 +2,6 @@
 
 A simple meme generator built with React and Vite. Create memes by adding custom top and bottom text to meme images.
 
-## Preview
-
-### Example 1
-
-![Meme Generator preview - One does not simply walk into Mordor](screenshots/meme-generator-1.jpg)
-
-### Example 2
-
-![Meme Generator preview - custom meme text](screenshots/meme-generator-2.jpg)
-
 ## Features
 
 - React component-based interface
@@ -65,9 +55,6 @@ npm run preview
 
 ```text
 meme-generator/
-├── screenshots/
-│   ├── meme-generator-1.jpg
-│   └── meme-generator-2.jpg
 ├── src/
 │   ├── components/
 │   ├── App.jsx
